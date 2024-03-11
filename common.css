@@ -1,0 +1,145 @@
+
+*{
+    padding:0px;
+    margin: 0px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+        
+      
+      
+}
+body{
+    background-image: url("/Images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+h2,h3{
+    text-align: center;
+    
+}
+.container{
+    height:500px;
+    width:70%;
+    background: rgba( 255, 255, 255, 0.2 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 2px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    margin:auto;
+    margin-top: 50px;
+    position: relative;
+    overflow: hidden;
+    /* border-radius: 10px; */
+}
+.containt{
+    height:100%;
+    width:100%;
+   
+    color:black;
+    position: absolute;
+    transition: 1s;
+}
+div h2,h3{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.options{
+    height:3rem;
+    width: 70%;
+    margin:auto;
+    margin-top: 25px;
+    margin-left: 145px;
+    background-color:#B0E0E6;
+}
+.button{
+    position: absolute;
+    bottom: 20%;
+    left:45%;
+    height:2.5rem;
+    width:4rem;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 9.5px );
+    -webkit-backdrop-filter: blur( 9.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+    
+}
+.next{
+    position: absolute;
+    bottom: 20%;
+    left:50%;
+    height:2.5rem;
+    width:4rem;
+}
+
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.1em;
+    border:none;
+    transition: 0.7s;
+}
+
+.heading{
+    margin-top: 30px;
+}
+
+.green{
+    background-color: green;
+}
+
+.submit{
+    position: absolute;
+    bottom: 69px;
+    left:41%;
+    height: 50px;
+    width: 17rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+
+.your_score{
+    position: absolute;
+    bottom: 32%;
+    left:43%;
+}
+
+.color_change{
+    background-color: aliceblue;
+}
+.options:hover{
+    box-shadow: 10px 10px 10px grey;
+}
+.submit:hover{
+    box-shadow: 5px 5px 7px grey;
+    
+
+}
+.reset{
+    position: absolute;
+    bottom: 69px;
+    left:70%;
+    height: 50px;
+    width: 17rem;
+    font-weight: 500;
+    background-color: black;
+    color: white;
+}
+.answer {
+    position: absolute;
+    right:18%;
+    bottom: 32%;
+    cursor: pointer;
+    color: black;
+    font-weight: 500;
+}
+.close{
+    left:14%;
+}
